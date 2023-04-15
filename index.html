@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="img-area">
+      <div class="inner-area">
+        <img src="vanh.jpg" alt="">
+      </div>
+    </div>
+    <!-- <div class="icon arrow"><i class="fas fa-arrow-left"></i></div> -->
+    <div class="icon dots btn"><i class="fa-sharp fa-solid fa-moon"></i></div>
+    <div class="name">Viet Anh Dao</div>
+    <div class="about">Software Developer</div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/profile.php?id=100048200557450" class="fb"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="twitter"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/daovietanhhh/" class="insta"><i class="fab fa-instagram"></i></a>
+    
+    </div>
+    <div class="buttons">
+      <span class="contact">Contact me</span>
+    </div>
+    <div>
+      <a href=""  class="contact">vietanhdao883@gmail.com</a>
+    </div>
+    <!-- <div class="social-share">
+      <div class="row">
+        <i class="far fa-heart"></i>
+        <i class="icon-2 fas fa-heart"></i>
+        <span>20.4k</span>
+      </div>
+      <div class="row">
+        <i class="far fa-comment"></i>
+        <i class="icon-2 fas fa-comment"></i>
+        <span>14.3k</span>
+      </div>
+      <div class="row">
+        <i class="fas fa-share"></i>
+        <span>12.8k</span>
+      </div> -->
+    </div>
+  </div>
+</body>
+</html>
+<script>
+    const btn = document.querySelector('.btn');
+    const background = document.querySelector('body');
+    const backgroundmain = document.querySelector('.wrapper');
+    const name = document.querySelector('.name');
+    const about = document.querySelector('.about');
+    const contact = document.querySelector('.contact');
+    function change(){
+        background.style.backgroundColor = '#666';
+        backgroundmain.style.backgroundColor = '#333';
+        name.style.color = '#fff';
+        about.style.color = '#fff';
+        contact.style.color = '#fff';
+    }
+    btn.addEventListener('click' , change);
+    for(const buyBtn of btn){
+     
+    }
+
+</script>
